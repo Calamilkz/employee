@@ -1,3 +1,8 @@
+# Project rules
+
+- Every `page.tsx` must start with `'use client';`.
+- Keep page data in variables (such as props or state) so it can be populated from other parts of the app or fetched from a data source; avoid hardcoding dynamic data in TSX.
+
 <!-- BEGIN:nextjs-agent-rules -->
 
 ## This is NOT the Next.js you know
